@@ -63,9 +63,6 @@ FROM joined_data
 GROUP BY device_age_bucket;
 
 
--- =========================
--- TASK 3: REGION + % IMPACT
--- =========================
 WITH base AS (
   SELECT
     a.device_id,
